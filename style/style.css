@@ -48,6 +48,7 @@ nav li a{
 display: flex;
 gap: 15px;
 box-sizing: border-box;
+margin-right: 140px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 39px;
 padding: 4px;
@@ -56,6 +57,7 @@ padding: 4px;
 .logo{
 font-size: 2.25rem;
 font-weight: 800;
+margin-left: 140px;
 color: rgb(230, 83, 60);
 }
 
@@ -84,7 +86,7 @@ width: 92px;
 }
 
 .body-shape{
-  margin-left: 190px;
+  margin-left: 140px;
 }
 
 .body-title{
@@ -125,17 +127,22 @@ padding: 16px 40px 16px 40px;
 display: flex;
 flex-direction: column;
 position: relative;
-margin-right: 170px;
+margin-right: 140px;
+}
+
+.body-img img{
+  width: 349px;
+height: 580px;
 }
 
 
 
 .card-workout{
   position: absolute;
-  margin-top: 150px;
-  margin-left: 250px;
-  width: 193px;
-height: 98px;
+  margin-top: 170px;
+  margin-left: 190px;
+  width: 150px;
+height: 90px;
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
@@ -144,12 +151,12 @@ background: rgba(255, 255, 255, 0.1);
 }
 
 .card-tutorial{
-width: 206px;
-height: 96px;
+width: 150px;
+height: 90px;
 position: absolute;
 margin-bottom: -500px;
-margin-top: 420px;
-margin-left: -100px;
+margin-top: 400px;
+margin-left: -70px;
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
