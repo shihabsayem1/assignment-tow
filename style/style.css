@@ -27,6 +27,7 @@ body{
 
 .header-conteiner{
   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  margin: auto;
 }
 
 nav li{
@@ -46,7 +47,6 @@ nav li a{
 .nav-items {
 display: flex;
 gap: 15px;
-margin-right: 190px;
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 39px;
@@ -54,10 +54,13 @@ padding: 4px;
 }
 
 .logo{
-margin-left: 190px;
 font-size: 2.25rem;
 font-weight: 800;
 color: rgb(230, 83, 60);
+}
+
+.ham-burger{
+  display: none;
 }
 
 nav div li a{

@@ -4,20 +4,16 @@
 
 
 @media screen and (max-width: 576px){
-   .nav-bar{
-    flex-direction: column;
-   }
-}
+  .nav-items{
+    display: none;
+  }
 
-@media screen and (max-width: 576px){
-    .nav-items{
-        flex-direction: column;
-    }
-    
-}
+  .ham-burger{
+    display: block;
+    margin-right: 10px;
+  }
 
-@media screen and (max-width: 576px){
-   .body-section{ 
-     flex-direction: column;
-   } 
+  .logo{
+    margin-left: 10px;
+  }
 }
